@@ -1,0 +1,50 @@
+{
+  "name": "@monoca/random",
+  "version": "1.0.0",
+  "description": "A drop-in replacement for the 'random' Meteor package",
+  "browser": "./dist/browser.js",
+  "main": "./dist/server.js",
+  "scripts": {
+    "build": "rimraf ./dist && babel src --out-dir ./dist",
+    "prepublishOnly": "npm run build",
+    "lintfix": "eslint ./src --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "watch": "watch 'npm run build' src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanvu0995/changesets-demo.git",
+    "directory": "packages/random"
+  },
+  "author": "tuanvu0995 Commerce <tuanvu0995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuanvu0995/changesets-demo/issues"
+  },
+  "homepage": "https://github.com/tuanvu0995/changesets-demo#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "watch": "^1.0.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ],
+    "plugins": [
+      [
+        "add-module-exports",
+        {
+          "addDefaultProperty": true
+        }
+      ]
+    ],
+    "sourceMaps": true
+  },
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
