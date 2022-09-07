@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build --if-present --ws",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "changeset": "changeset",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
