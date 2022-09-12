@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/tuanvu0995/changesets-demo#readme",
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "devDependencies": {
