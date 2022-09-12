@@ -17,6 +17,7 @@
  */
 function Mash() {
   var num = 0xefc8249d;
+  console.log('aassadsdadas')
 
   /**
    * @name mash
