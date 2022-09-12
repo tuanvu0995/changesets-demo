@@ -1,5 +1,11 @@
 # @monoca/random
 
+## 2.0.1
+
+### Patch Changes
+
+- [`d463b8b`](https://github.com/tuanvu0995/changesets-demo/commit/d463b8b50d6ad21c42087266e5e85b7c6b311636) Thanks [@vanpho93](https://github.com/vanpho93)! - feat: test 33
+
 ## 2.0.0
 
 ### Major Changes
