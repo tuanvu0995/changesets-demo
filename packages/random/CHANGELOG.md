@@ -1,5 +1,11 @@
 # @monoca/random
 
+## 2.0.2
+
+### Patch Changes
+
+- [`c981e1f`](https://github.com/tuanvu0995/changesets-demo/commit/c981e1fe3e0c9f08aa7ddb97172d74bbeeb4bc49) Thanks [@vanpho93](https://github.com/vanpho93)! - feat: test 5
+
 ## 2.0.1
 
 ### Patch Changes
